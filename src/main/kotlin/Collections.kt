@@ -7,6 +7,13 @@ fun  main(args:Array<String>){
         println(word)
     }
 
+    val list2 = listOf<String>("word", "help", "world")
+    val mutableList2 = mutableListOf<String>("Katy", "Jay", "Ralf")
+    mutableList.add(2, "Tom")
+    mutableList.forEach{word->
+        println(word)
+    }
+
     println()
 
     mutableList.sort()
